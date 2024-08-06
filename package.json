@@ -1,0 +1,20 @@
+{
+  "name": "send_notification",
+  "version": "1.0.1",
+  "description": "This is API to send whatsapp message to respective mobile no",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node ./dist/app.js",
+    "dev": "nodemon --watch src src/app.ts",
+    "build": "tsc -p ."
+  },
+  "author": "SuhairiSuhaimi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "typescript": "^5.5.4",
+    "venom-bot": "^5.1.0"
+  }
+}
